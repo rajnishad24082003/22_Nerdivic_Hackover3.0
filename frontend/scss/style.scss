@@ -1,0 +1,8 @@
+@use "custom";
+
+
+$primary:rgb(117, 255, 186) ;
+
+.favcol{
+    background-color: $primary;
+}
