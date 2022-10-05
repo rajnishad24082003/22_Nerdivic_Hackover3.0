@@ -1,5 +1,5 @@
 .Getbtn {
-    background-color: rgb(226, 170, 121);
+    background-color: #ffa710;
     border-radius: 10px;
 }
 /* .nav-item {
@@ -7,16 +7,13 @@
 } */
 .navbar{
     position: relative;
+    background-color: #ffa710 !important;
 }
 body{
     background-color: antiquewhite;
 }
 
   /* Card */
-  img{
-    height:150px;
-    width:100%;
-  }
   
   div [class^="col-"]{
     padding-left:5px;
@@ -70,4 +67,15 @@ body{
   }
   .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
+  }
+
+  .logonavbar{
+    width: 3rem;
+  }
+
+  .btn:hover{
+    background-color: #ffa710 !important;
+  }
+  .btn{
+    border-color: #ffa710 !important;
   }

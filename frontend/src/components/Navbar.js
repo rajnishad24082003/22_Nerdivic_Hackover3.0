@@ -5,8 +5,8 @@ import "./style.css";
 function Navbar()
 {
     return(<>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">   
-          <a className="navbar-brand" href="#"><img src={img2} height="50"/></a>
+        <nav className="navbar navbar-expand-lg bg-light" style={{"color":"black"}}>   
+          <a className="navbar-brand" href="#"><img src={img2} className="logonavbar"/></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -30,10 +30,9 @@ function Navbar()
               </li>
             
             </ul>
-            <form className="d-flex">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button className="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <div className="d-flex m-1">
+              <a href="/Sign_in" className="btn " type="submit">Sign in</a>
+            </div>
           </div>
           </nav>
     </>)
