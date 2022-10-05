@@ -23,9 +23,9 @@ function Navbar()
                   Get Started
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a className="dropdown-item" href="#">Aa Admin</a></li>
-                  <li><a className="dropdown-item" href="#">As Organizer</a></li>
-                  <li><a className="dropdown-item" href="#">As Visiter</a></li>
+                  <li><a className="dropdown-item" href="/As_admin">As Admin</a></li>
+                  <li><a className="dropdown-item" href="/As_organiser">As Organizer</a></li>
+                  <li><a className="dropdown-item" href="As_customer">As Visiter</a></li>
                 </ul>
               </li>
             

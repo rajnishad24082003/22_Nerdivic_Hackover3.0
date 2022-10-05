@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+var Schema = mongoose.Schema;
 const userData = new mongoose.Schema({
     googleid:{
         type: String,
